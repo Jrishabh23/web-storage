@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web-Storage</title>
+        <link rel="stylesheet" href="./assests/style.css" />
+        <script defer src="./assests/script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <section>
+                <div class="storage">
+                    <div class="button-container">
+                        <button data-tab="local-storage" class="btn active">
+                            Local Storage
+                        </button>
+                        <button data-tab="session-storage" class="btn">
+                            Session Storage
+                        </button>
+                        <button data-tab="cookies-storage" class="btn">
+                            Cookies Storage
+                        </button>
+                    </div>
+                    <div class="storage-container">
+                        <div class="local-storage-details storage-data">
+                            <div class="form-group">
+                                <input
+                                    type="search"
+                                    placeholder="Please enter text"
+                                    class="storage-value"
+                                />
+                                <button class="search-button">Search</button>
+                                <button class="search-button clear-search">
+                                    Clear Search
+                                </button>
+                            </div>
+                            <div
+                                class="local-storage-list"
+                                id="local-storage-list"
+                            ></div>
+                            <div
+                                class="session-storage-list"
+                                id="session-storage-list"
+                            ></div>
+                        </div>
+                        <div
+                            class="
+                                cookies-storage-details
+                                storage-data
+                                display-none
+                            "
+                        >
+                            <div class="form-group cookies-form">
+                                <input
+                                    type="text"
+                                    name="key"
+                                    placeholder="Please key text"
+                                    class="cookies-storage"
+                                />
+                                <input
+                                    type="text"
+                                    name="value"
+                                    placeholder="Please value text"
+                                    class="cookies-storage"
+                                />
+                                <button class="cookie-search-button">
+                                    Search
+                                </button>
+                            </div>
+                            <div
+                                class="cookies-storage-list"
+                                id="cookies-storage-list"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

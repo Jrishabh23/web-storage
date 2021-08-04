@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: cadetblue;
+}
+.button-container {
+    width: 100%;
+    background: white;
+    height: 40px;
+}
+button {
+    background: darkcyan;
+    padding: 11px;
+    border: none;
+    height: 50px;
+    font-size: larger;
+}
+.active {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.storage-container {
+    margin: 30px;
+}
+input {
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    font-size: 25px;
+}
+.search-list {
+    background: aliceblue;
+    height: 30px;
+    padding: 10px 7px 10px 15px;
+    font-size: 30px;
+    width: 68%;
+    margin: 5px;
+}
+.pull-right {
+    float: right;
+}
+.remove {
+    cursor: pointer;
+}
+.storage-data {
+    margin: 10% 6% 10% 25%;
+}
+.display-none {
+    display: none;
+}
+.cookies-storage {
+    width: 30%;
+    height: 25px;
+}
